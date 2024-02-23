@@ -14,6 +14,8 @@
  */
 
 define( "EMS_PLUGIN_PATH", plugin_dir_path(__FILE__) );
+define( "EMS_PLUGIN_URL", plugin_dir_url(__FILE__) );
+
 
  add_action( 'admin_menu', 'cp_add_admin_menu');
  function cp_add_admin_menu() {
